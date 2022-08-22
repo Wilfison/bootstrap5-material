@@ -1,0 +1,16 @@
+.form-control,
+.form-select,
+.input-group-text {
+  border          : none;
+  border-bottom   : $input-border-width solid $input-border-color;
+  border-radius   : 0;
+  background-color: $input-bg;
+  margin-bottom   : 1px;
+
+  &:focus {
+    box-shadow   : none;
+    border-width : $input-border-width + 1;
+    border-color : $input-focus-border-color;
+    margin-bottom: 0;
+  }
+}

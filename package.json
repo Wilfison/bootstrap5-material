@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap5-material",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch scss/ --ext scss --exec \"npm run css-compile\"",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilfison/bootstrap5-material.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilfison/bootstrap5-material/issues"
+  },
+  "homepage": "https://github.com/Wilfison/bootstrap5-material#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.4"
+  }
+}
